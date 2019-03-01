@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+  }
+  p {
+    margin: 0;
+  }
+ 
+  
+  .background {
+    background-color: lightgoldenrodyellow;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .inv{
+    visibility: hidden;
+  }
+  .home{
+  text-align: center;
+
+  }
+  ul {
+    margin: 500px;
+    padding-left: 0px;
+    position: relative;
+    top: 0;
+  }
+  .menu{
+    margin-top: 1%;
+  }
+  .navb{
+    background-color: rgb(58, 175, 62);
+  }
+  li {
+    display: block;
+    float: left;
+   }
+   
+   li:hover {
+     cursor: pointer;
+     background-color: violet;
+   }
+   
+   ul li ul {
+     visibility: hidden;
+     opacity: 0;
+     position: absolute;
+     margin-top: 1rem;
+     left: 0;
+     display: none;
+   }
+   
+   ul li:hover > ul,
+   ul li ul:hover {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+   }
+   
+   ul li ul li {
+     clear: both;
+     width: 100%;
+   }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 42px;
+    text-decoration: none;
+  }
+  .dropdown>.dropdown-menu{
+    background-color: whitesmoke;
+    border-color: transparent;
+    border-style: none;
+  }
+  .dropdown>.dropdown-menu>li>a:hover{
+    background-color: rgba(255,255,255,0.5);
+    border-color: transparent;
+    border-style: none;
+  }
+  
+  .active {
+    background-color: violet;
+  }
+ 
+  .imageC{
+margin-left: 10px;
+  }
+  .btm {
+    background-color: black;
+    color: aliceblue;
+    margin-top: 50px;
+  }
+  .btm p{
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  nav {
+    height: 5vw;
+    width: 100%;
+  }
+  
+  
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    margin-left: 70%;
+}
+.btn-clear{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    margin-right: 70%;
+    position: absolute;
+}
+.row{
+  width: 800px;
+}
+#form_message{
+    resize: vertical;
+}
+.contT{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.FSize{
+  margin-top: 10px;
+  margin-left: 22%;
+  margin-right: 22%;
+
+}
