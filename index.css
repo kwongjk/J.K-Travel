@@ -7,8 +7,8 @@ html {
  
   
   .background {
-    background-color: lightgoldenrodyellow;
-    background-repeat: repeat;
+    background-image: url("https://www.aerionsupersonic.com/wp-content/uploads/2017/01/winter_clouds-wallpaper-2560x1600.jpg");
+    background-repeat: none;
     background-size: cover;
     background-position: top center;
   }
@@ -17,7 +17,13 @@ html {
   }
   .home{
   text-align: center;
-
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  }
+  .line{
+    border-top: 1px solid black;
+    width: auto;
   }
   ul {
     margin: 500px;
@@ -26,19 +32,19 @@ html {
     top: 0;
   }
   .menu{
-    margin-top: 1%;
+    margin-top: 0%;
   }
   .navb{
-    background-color: rgb(58, 175, 62);
+    background-color: transparent;
   }
   li {
     display: block;
     float: left;
    }
-   
-   li:hover {
-     cursor: pointer;
-     background-color: violet;
+   .navb > a:hover{
+    color:blue;
+    cursor: pointer;
+    text-decoration: none;
    }
    
    ul li ul {
@@ -61,31 +67,48 @@ html {
      clear: both;
      width: 100%;
    }
-  
-  li a {
+
+   .Out {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 40px;
+    padding: 5px 0px;
+    margin: 0px 36px;
+    text-decoration: none;
+    font-weight: 750;
+  }
+
+  .inDrop{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 0px;
     text-decoration: none;
   }
+
   .dropdown>.dropdown-menu{
     background-color: whitesmoke;
     border-color: transparent;
     border-style: none;
   }
   .dropdown>.dropdown-menu>li>a:hover{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(194, 194, 194, 0.5);
     border-color: transparent;
     border-style: none;
+    color: blue;
+    font-weight: 800;
   }
   
-  .active {
-    background-color: violet;
+  .active{
+    color: blue;
   }
  
   .imageC{
 margin-left: 10px;
+opacity: 0.7;
+  }
+  .imageC:hover{
+opacity: 1;
   }
   .btm {
     background-color: black;
@@ -97,6 +120,16 @@ margin-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+  }
+
+  .bbtm:hover{
+    text-decoration: none;
+    color:lawngreen;
+    cursor: progress;
+  }
+  .bbtm{
+    text-decoration: none;
+    color:lawngreen;
   }
   
   nav {
@@ -136,4 +169,13 @@ margin-left: 10px;
   margin-left: 22%;
   margin-right: 22%;
 
+}
+.img1{
+  width: auto;
+  height: auto;
+}
+
+.context > h3{
+background-color:darkkhaki;
+padding: 10px;
 }
