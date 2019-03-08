@@ -169,8 +169,8 @@ cursor:url("./airport.png"), auto;
 
 }
 .img1{
-  width: auto;
-  height: auto;
+  width: 60vw;
+  height: 40vw;
 }
 
 .context > h3{
