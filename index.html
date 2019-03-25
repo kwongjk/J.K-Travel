@@ -2,21 +2,8 @@
 <html lang="en">
 
 
-<head> 
-    <!-- Google Analytics Content Experiment code -->
-<script>function utmx_section(){}function utmx(){}(function(){var
-k='190839832-0',d=document,l=d.location,c=d.cookie;
-if(l.search.indexOf('utm_expid='+k)>0)return;
-function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-</script><script>utmx('url','A/B');</script>
-<!-- End of Google Analytics Content Experiment code -->
+<head>
+
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133590217-2"></script>
     <script>
@@ -26,26 +13,23 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
         gtag('config', 'UA-133590217-2');
     </script>
-   
-<meta name="keyword" content="jktravel, ypctravel, jkcommerce, junkittravel, junkitE-commerce, junkittravelservices, junkithomepage, jkhomepage, traveling guide, junkitguide">
-    <meta name="description" content="JK Travelling Services E-commerce, Jun Kit Travel E-commerce">
+
+    <meta name="keyword" content="jktravel, ypctravel, jkcommerce, junkittravel, junkitE-commerce, junkittravelservices, junkithomepage, jkhomepage, traveling guide, junkitguide">
+    <meta name="description" content="JK Travelling Services E-commerce">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link href="./index.css" rel="stylesheet">
-    <link rel="icon" href="#" type="image/gif" sizes="16x16">
-
+    <link rel="Jun Kit Travel icon" href="./logo.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <title>J.K Travel</title>
+
+    <title>Jun Kit Travel</title>
 </head>
 
 <body>
-    <div class="background">
-        <a class="inv">l</a>
         <h1 class="home" id="home">Jun Kit Travel</h1>
         <div class="line"></div>
         <nav>
@@ -104,37 +88,84 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
 
         <center>
-            <div class="context ">
-                <img class="img1"
-                    src="http://2.bp.blogspot.com/-qYEYZ9qnMhI/VWBZEFlGriI/AAAAAAAAApI/ZNfZQ8kI94Y/s1600/7023313-mount-fuji-wallpaper.jpg">
-                <h1>​Start Your Next Adventure with J.K Travel</h1><br><br>
-                <h3>Choose a contry below here:</h3>
-                <br>
-                <a class="imageC" href="Japan.html"><img
-                        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png"
-                        width="208" height="128"></a>
-                <a class="imageC" href="China.html"><img src="https://cdn.britannica.com/90/7490-004-415899A0.jpg"
-                        width="208" height="128"></a>
-                <a class="imageC" href="Korean.html"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_Korea_%281919~1945%29.png"
-                        width="208" height="128"></a>
-                <a class="imageC" href="Taiwan.html"><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-OxSlfy_DOwRAkBHZXgeSTM_RrhHeJhRikZ7s7XIf6P4fANI3"
-                        width="208" height="128"></a>
-                <a class="imageC" href="Malaysia.html"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg" width="208"
-                        height="128"></a>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade ">
+                    <div class="slidetext">Dolphin</div>
+                    <img class="slideimg" alt="Dolphin" src="./1.jpg" style="width:100%; height:100%">
+                </div>
+
+                <div class="mySlides fade ">
+                        <div class="slidetext">Sakura</div>
+                    <img class="slideimg" alt="Sakura" src="./2.jpg" style="width:100%;height:100%">
+                </div>
+
+                <div class="mySlides fade ">
+                        <div class="slidetext">Lake</div>
+                    <img class="slideimg" alt="Lake" src="./3.jpg" style="width:100%;height:100%">
+                </div>
+
+                <div class="mySlides fade ">
+                        <div class="slidetext">Beach</div>
+                    <img class="slideimg" alt="Beach" src="./4.jpg" style="width:100%;height:100%">
+                </div>
+
+                <div class="mySlides fade ">
+                        <div class="slidetext">China's Great Wall</div>
+                    <img class="slideimg" alt="China's Great Wall" src="./5.jpg" style="width:100%;height:100%">
+                </div>
 
             </div>
-            <br><br><br>
-        </center>
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {
+                         slideIndex = 1 
+                        }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 2500); // Change image every 2 seconds
+                }
+            </script>
+            <div class="context ">
 
 
-        <footer class="btm">
-            <p>Copyright © 2019 <a href="#home" class="bbtm">J.K Travel </a>| Designed by <a href="#home"
-                    class="bbtm">JK</p>
-        </footer>
-    </div>
+
+
+                <h1>​Start Your Next Adventure with Jun Kit Travel</h1>
+                <h3>Choose a contry below here:</h3>
+                <br>
+                <a class="imageC" href="Japan.html"><img alt="Flag_of_Japan" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png"
+                        width="208" height="128"></a>
+                <a class="imageC" href="China.html"><img alt="Flag_of_China" src="https://cdn.britannica.com/90/7490-004-415899A0.jpg"
+                        width="208" height="128"></a>
+                <a class="imageC" href="Korean.html"><img alt="Flag_of_Korean" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_Korea_%281919~1945%29.png"
+                        width="208" height="128"></a>
+                <a class="imageC" href="Taiwan.html"><img alt="Flag_of_Taiwan" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-OxSlfy_DOwRAkBHZXgeSTM_RrhHeJhRikZ7s7XIf6P4fANI3"
+                        width="208" height="128"></a>
+                <a class="imageC" href="Malaysia.html"><img alt="Flag_of_Malaysia" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg"
+                        width="208" height="128"></a>
+
+            </div>
+            <br><br>
+
+
+            <footer class="btm">
+                <p>Copyright © 2019 <a href="#home" class="bbtm">J.K Travel </a>| Designed by <a href="#home" class="bbtm">JK</p>
+                    
+                </footer>
+<script src="Live Chat.js"></script>
+
+    
+    
+    
 </body>
 
 </html>
